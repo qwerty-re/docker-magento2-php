@@ -1,0 +1,6 @@
+services:
+  - docker
+
+script:
+  - docker build -t qwertyre/magento2-php:latest . --no-cache
+  - docker run qwertyre/magento2-php:latest php -v

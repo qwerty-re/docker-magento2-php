@@ -8,7 +8,7 @@
 [![Forks](https://img.shields.io/github/forks/qwerty-re/docker-magento2-php?style=social)](https://github.com/qwerty-re/docker-magento2-php/network/members)
 
 ##### Versions
-[![PHP version](https://img.shields.io/badge/PHP_FPM-7.2.21-green?logo=php)](https://www.php.net/ChangeLog-7.php#7.2.21)
+[![PHP version](https://img.shields.io/badge/PHP_FPM-7.2.22-green?logo=php)](https://www.php.net/ChangeLog-7.php#7.2.22)
 [![Devian version](https://img.shields.io/badge/debian-buster-green?logo=debian)](https://www.debian.org/releases/buster/)
 
 ##### Supported Magento versions
@@ -31,7 +31,7 @@ version: '2'
 services:
   dockerized_magento2_php:
     container_name: DOCKERIZED_MAGENTO2_PHP
-    image: qwertyre/magento2-php:7.2.21
+    image: qwertyre/magento2-php:7.2.22
     volumes:
       - ./local-magento:/srv/magento2
     network_mode: "DOCKER_network"

@@ -1,4 +1,4 @@
-FROM php:7.2.21-fpm-buster
+FROM php:7.2.22-fpm-buster
 LABEL maintainer="Mateusz Lerczak <mateusz@lerczak.eu>"
 
 ARG MAGENTO_UID=1000
